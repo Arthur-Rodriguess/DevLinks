@@ -6,10 +6,9 @@ function toggleMode() {
 
   if (html.classList.contains("light")) {
     img.setAttribute("src", "./imgs/foto-arthur-light.png")
-    img.setAttribute("alt", "Foto do Mayk Brito sorrindo com óculos escuro e casaco"
-    )
+    img.setAttribute("alt" ,"Foto do Arthur com óculos escuro em preto e branco")
   } else {
     img.setAttribute("src", "./imgs/foto-arthur.png")
-    img.setAttribute("alt", "Foto do Mayk Brito sorrindo com um fundo amarelo")
+    img.setAttribute("alt", "Foto do Arthur com óculos escuro")
   }
 }
